@@ -4,13 +4,12 @@ public class main {
 	public static void main(String[] args) throws InterruptedException {
 		rabbit rabbit = new rabbit(250,0);
 		rabbit.sayHello();
-		
-		
 		boolean runForever = true;
-
 		while (runForever == true) {
-			System.out.println("Carrot");
 			Thread.sleep(3000);
+			int xp = rabbit.getxPosition();
+			System.out.println("The rabbit is at pos "+xp);
+			rabbit.setxPosition(xp+15);
 		}
 }
 }
