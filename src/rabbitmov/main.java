@@ -9,7 +9,7 @@ public class main {
 			Thread.sleep(1000);
 			int xp = rabbit.getxPosition();
 			System.out.println("The rabbit is at pos "+xp);
-			rabbit.setxPosition(xp+15);
+			rabbit.setxPosition(xp-15);
 		}
 }
 }
