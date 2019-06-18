@@ -8,6 +8,7 @@ public class buyingphones {
 		double p1 =price;
 		double p2 = price;
 		double p3 = price/2.0;
-		
+		System.out.println("Regular price of phone \t Number of phones purchased \t Price per phone");
+		System.out.println("\t$"+p1+"\t\t\t"+3+"\t\t\tPhone 1: $"+p1+"\tPhone 2: $"+p2+"\tPhone 3: $"+p3);
 		
 }}
