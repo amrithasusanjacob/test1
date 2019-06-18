@@ -40,7 +40,7 @@ public class rabbit {
 	// METHODS 
 	// ------------
 	public void printCurrentPosition() {
-		System.out.println("The current position of the rabbit is: ");
+		System.out.println("The current position of the rabbit is: "+xPosition);
 	}
 
 	public void sayHello() {

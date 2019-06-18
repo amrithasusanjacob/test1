@@ -5,11 +5,30 @@ public class main {
 		rabbit rabbit = new rabbit(250,0);
 		rabbit.sayHello();
 		boolean runForever = true;
+		int t=0;
+		rabbit.printCurrentPosition();
 		while (runForever == true) {
 			Thread.sleep(1000);
 			int xp = rabbit.getxPosition();
-			System.out.println("The rabbit is at pos "+xp);
-			rabbit.setxPosition(xp-15);
+			if(t==0)
+			{
+				  if(xp>10)
+				   {
+				    rabbit.setxPosition(xp-15);
+				    rabbit.printCurrentPosition();
+				   }
+				  else
+				   {
+					t=1;
+				   }
+			    	   
+			}
+			else
+	    	{
+	    		rabbit.setxPosition(xp+15);
+	    		rabbit.printCurrentPosition();
+			}
+			
 		}
 }
 }
