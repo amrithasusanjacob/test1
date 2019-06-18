@@ -25,8 +25,15 @@ public class main {
 			}
 			else
 	    	{
+				if(xp<490)
+				{
 	    		rabbit.setxPosition(xp+15);
 	    		rabbit.printCurrentPosition();
+				}
+				else
+				{
+					t=0;
+				}
 			}
 			
 		}
