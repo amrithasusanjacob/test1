@@ -16,7 +16,11 @@ public class substringforkids {
 	
 	public static void substringForKids(int i,int j, String s) {
 		
-		if(i==j)
+	   if((i<0)||(j<0)||(j>s.length()))
+	   {
+		   System.out.println("You gave me invalid numbers");
+	   }		
+		else if(i==j)
 		{
 			System.out.println(s.charAt(i));
 		}
@@ -31,6 +35,7 @@ public class substringforkids {
 		{
 			System.out.println("You gave me invalid numbers");
 		}
+		
 	}
 }
 
