@@ -27,6 +27,10 @@ public class substringforkids {
 				System.out.print(s.charAt(k));
 			}
 		}
+		else if(i>j)
+		{
+			System.out.println("You gave me invalid numbers");
+		}
 	}
 }
 
