@@ -6,7 +6,7 @@ public class main {
 		rabbit.sayHello();
 		boolean runForever = true;
 		while (runForever == true) {
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 			int xp = rabbit.getxPosition();
 			System.out.println("The rabbit is at pos "+xp);
 			rabbit.setxPosition(xp+15);
