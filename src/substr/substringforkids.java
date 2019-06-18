@@ -20,7 +20,13 @@ public class substringforkids {
 		{
 			System.out.println(s.charAt(i));
 		}
-		
+		else if(i<j)
+		{
+			for(int k=i;k<=j;k++)
+			{
+				System.out.print(s.charAt(k));
+			}
+		}
 	}
 }
 
